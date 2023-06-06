@@ -25,6 +25,7 @@
 package com.iluwatar.singleton;
 
 /**
+ * 枚举创建单例
  * <p>Enum based singleton implementation. Effective Java 2nd Edition (Joshua Bloch) p. 18</p>
  *
  * <p>This implementation is thread safe, however adding any other method and its thread safety

@@ -29,12 +29,16 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * <p>Singleton pattern ensures that the class can have only one existing instance per Java
  * classloader instance and provides global access to it.</p>
+ * 单利模式可确保每个Java类装入器实例只能有一个现有实例，并提供对它的全局访问。
  *
  * <p>One of the risks of this pattern is that bugs resulting from setting a singleton up in a
  * distributed environment can be tricky to debug since it will work fine if you debug with a
  * single classloader. Additionally, these problems can crop up a while after the implementation of
  * a singleton, since they may start synchronous and only become async with time, so it may
  * not be clear why you are seeing certain changes in behavior.</p>
+ * 此模式的风险之一是，在分布式环境中设置单例会导致的错误很难调试，因为如果使用单个类加载器进行调试，
+ * 它将正常工作。此外，这些问题可能会在实现单例后一段时间出现，因为它们可能会同步启动并且仅与时间异步，
+ * 因此可能不清楚为什么您会看到某些行为变化。
  *
  * <p>There are many ways to implement the Singleton. The first one is the eagerly initialized
  * instance in {@link IvoryTower}. Eager initialization implies that the implementation is thread

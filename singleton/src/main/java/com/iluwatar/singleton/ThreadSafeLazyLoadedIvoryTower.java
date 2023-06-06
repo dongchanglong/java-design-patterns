@@ -25,6 +25,7 @@
 package com.iluwatar.singleton;
 
 /**
+ * 懒汉式-线程安全-访问效率低
  * <p>Thread-safe Singleton class. The instance is lazily initialized and thus needs synchronization
  * mechanism.</p>
  *

@@ -25,6 +25,7 @@
 package com.iluwatar.singleton;
 
 /**
+ * 匿名内部类
  * <p>The Initialize-on-demand-holder idiom is a secure way of creating a lazy initialized singleton
  * object in Java.</p>
  *
