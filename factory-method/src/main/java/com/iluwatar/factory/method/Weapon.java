@@ -25,7 +25,7 @@
 package com.iluwatar.factory.method;
 
 /**
- * Weapon interface.
+ * 抽象产品 Weapon interface.
  */
 public interface Weapon {
 
