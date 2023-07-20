@@ -25,7 +25,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * OrcArmy.
+ * OrcArmy.兽人军队
  */
 public class OrcArmy implements Army {
 

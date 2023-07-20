@@ -28,7 +28,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * ElfWeapon.
+ * 具体产品 ElfWeapon.
  */
 @RequiredArgsConstructor
 @Getter

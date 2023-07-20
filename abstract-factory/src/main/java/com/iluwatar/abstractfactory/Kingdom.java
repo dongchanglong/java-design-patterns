@@ -28,6 +28,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
+ * 王国具体工厂
  * Helper class to manufacture {@link KingdomFactory} beans. 
  */
 @Getter

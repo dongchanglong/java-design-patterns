@@ -28,7 +28,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * OrcWeapon.
+ * 具体产品 OrcWeapon.
  */
 @RequiredArgsConstructor
 @Getter
@@ -36,8 +36,5 @@ public class OrcWeapon implements Weapon {
 
   private final WeaponType weaponType;
 
-  @Override
-  public String toString() {
-    return "an orcish " + weaponType;
-  }
+
 }

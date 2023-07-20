@@ -25,7 +25,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * Army interface.
+ * Army interface. 军队
  */
 public interface Army {
 

@@ -25,7 +25,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * OrcKing.
+ * OrcKing.兽人王
  */
 public class OrcKing implements King {
 

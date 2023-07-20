@@ -29,7 +29,7 @@ import java.util.EnumMap;
 import java.util.Map;
 
 /**
- * Concrete subclass for creating new objects.
+ * 具体工厂 Concrete subclass for creating new objects.
  */
 public class OrcBlacksmith implements Blacksmith {
 

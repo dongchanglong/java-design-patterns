@@ -25,7 +25,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * ElfArmy.
+ * ElfArmy. 精灵军队
  */
 public class ElfArmy implements Army {
 

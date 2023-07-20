@@ -25,7 +25,7 @@
 package com.iluwatar.abstractfactory;
 
 /**
- * ElfKing.
+ * ElfKing. 精灵王
  */
 public class ElfKing implements King {
 
